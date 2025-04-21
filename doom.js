@@ -27,7 +27,7 @@ for (let i = 1 ;i <= 826; i++) {
     .then ((character) => {
         const post = createPost(
             "Character" + i, 
-            "Esta es mi publicación número" + i + ". Esto es una prueba de generación de relleno por medio de funciones y ciclos.", 
+            "Esta es mi publicación número " + i + ". Esto es una prueba de generación de relleno por medio de funciones y ciclos.", 
             character.image 
         );
         galeria.append(post); 
