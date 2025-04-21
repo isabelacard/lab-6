@@ -5,3 +5,20 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #cef8ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+    color: #496dc3;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
